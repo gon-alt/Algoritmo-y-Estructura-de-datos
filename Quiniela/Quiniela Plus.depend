@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1648404059 source:/home/gonza/Documents/Github/C++/Quiniela/busqueda.cpp
+	<iostream>
+	<cstring>
+	"busqueda.h"
+	"jugar.h"
+	<stdlib.h>
+	<time.h>
+	"carton.h"
+
+1648403941 /home/gonza/Documents/Github/C++/Quiniela/busqueda.h
+	"jugar.h"
+
+1648429398 /home/gonza/Documents/Github/C++/Quiniela/jugar.h
+
+1648403843 /home/gonza/Documents/Github/C++/Quiniela/carton.h
+
+1648427392 source:/home/gonza/Documents/Github/C++/Quiniela/carton.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	<stdlib.h>
+	<time.h>
+
+1648426846 source:/home/gonza/Documents/Github/C++/Quiniela/jugador.cpp
+	<iostream>
+	<cstring>
+	"jugador.h"
+	"carton.h"
+
+1648403722 /home/gonza/Documents/Github/C++/Quiniela/jugador.h
+	"carton.h"
+
+1648428326 source:/home/gonza/Documents/Github/C++/Quiniela/jugar.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	"jugador.h"
+	"jugar.h"
+	<stdlib.h>
+	<time.h>
+
+1648429285 source:/home/gonza/Documents/Github/C++/Quiniela/main.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	"jugador.h"
+	"jugar.h"
+
+1648427392 source:/home/gonza/Documentos/Quiniela/carton.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	<stdlib.h>
+	<time.h>
+
+1648403843 /home/gonza/Documentos/Quiniela/carton.h
+
+1648426846 source:/home/gonza/Documentos/Quiniela/jugador.cpp
+	<iostream>
+	<cstring>
+	"jugador.h"
+	"carton.h"
+
+1648403722 /home/gonza/Documentos/Quiniela/jugador.h
+	"carton.h"
+
+1648429896 source:/home/gonza/Documentos/Quiniela/jugar.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	"jugador.h"
+	"jugar.h"
+	<stdlib.h>
+	<time.h>
+
+1648429398 /home/gonza/Documentos/Quiniela/jugar.h
+
+1648429285 source:/home/gonza/Documentos/Quiniela/main.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	"jugador.h"
+	"jugar.h"
+
+1648427392 source:/home/gonza/Documentos/C++/Quiniela/carton.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	<stdlib.h>
+	<time.h>
+
+1648403843 /home/gonza/Documentos/C++/Quiniela/carton.h
+
+1648426846 source:/home/gonza/Documentos/C++/Quiniela/jugador.cpp
+	<iostream>
+	<cstring>
+	"jugador.h"
+	"carton.h"
+
+1648403722 /home/gonza/Documentos/C++/Quiniela/jugador.h
+	"carton.h"
+
+1648601410 source:/home/gonza/Documentos/C++/Quiniela/main.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	"jugador.h"
+	"jugar.h"
+
+1648429398 /home/gonza/Documentos/C++/Quiniela/jugar.h
+
+1648601278 source:/home/gonza/Documentos/C++/Quiniela/jugar.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	"jugador.h"
+	"jugar.h"
+	<stdlib.h>
+	<time.h>
+
+1648427392 source:/home/gonza/Documentos/GitHub/C++/Quiniela/carton.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	<stdlib.h>
+	<time.h>
+
+1648403843 /home/gonza/Documentos/GitHub/C++/Quiniela/carton.h
+
+1648426846 source:/home/gonza/Documentos/GitHub/C++/Quiniela/jugador.cpp
+	<iostream>
+	<cstring>
+	"jugador.h"
+	"carton.h"
+
+1648403722 /home/gonza/Documentos/GitHub/C++/Quiniela/jugador.h
+	"carton.h"
+
+1648605864 source:/home/gonza/Documentos/GitHub/C++/Quiniela/jugar.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	"jugador.h"
+	"jugar.h"
+	<stdlib.h>
+	<time.h>
+
+1648429398 /home/gonza/Documentos/GitHub/C++/Quiniela/jugar.h
+
+1648601410 source:/home/gonza/Documentos/GitHub/C++/Quiniela/main.cpp
+	<iostream>
+	<cstring>
+	"carton.h"
+	"jugador.h"
+	"jugar.h"
+

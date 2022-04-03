@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1648606168 source:/home/gonza/Documentos/C++/Unidad 0/main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"dispositivo.h"
+
+1648604837 /home/gonza/Documentos/C++/Unidad 0/dispositivo.h
+
+1648606123 source:/home/gonza/Documentos/C++/Unidad 0/dispositivo.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"dispositivo.h"
+
