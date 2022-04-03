@@ -49,18 +49,9 @@ Jugar crearJuego(){
 
 	while (i<20){
 
-		aux = 1 + rand() % (100 - 0);
-
-			if(buscaRepetido(j, aux)){
-
-				printf("el numero esta repetido %d\n",i);
-
-			}else{
-
-				j->numeros[i] = aux;
+		j->numeros[i] = 1 + rand() % (100 - 0);
 
 				i++;
-			}
 
 	}
 
@@ -107,7 +98,7 @@ int comprobarGanador(Jugar j, Jugador ju){
 
         for(int k=0;k<8;k++){
 
-            if(j->numeros[i] == 0 /*ju->c->numeros[k]*/){
+            if(j->numeros[i] == getCartonJugador(ju)[k]){
 
                 aciertos++;
             }
@@ -116,6 +107,14 @@ int comprobarGanador(Jugar j, Jugador ju){
     }
 
 return aciertos;
+
+};
+
+// getter y setter
+
+int * getJugada (Jugar j){
+
+    return j->numeros;
 
 };
 

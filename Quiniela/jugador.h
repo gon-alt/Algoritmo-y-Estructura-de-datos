@@ -10,5 +10,13 @@ Jugador crearJugador();
 
 void mostrarJugador(Jugador j);
 
+//getter y seeter
+
+char * getNombre(Jugador j);
+
+int * getCartonJugador(Jugador j);
+
+int * getDni(Jugador j);
+
 
 #endif // JUGADOR_H_INCLUDED

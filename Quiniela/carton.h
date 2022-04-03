@@ -17,5 +17,9 @@ void mostrarCarton(Carton c);
 
 bool buscaRepetido(Carton c, int a);
 
+int * getCarton(Carton c);
+
+
+
 
 #endif // CARTON_H_INCLUDED

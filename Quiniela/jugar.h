@@ -11,6 +11,8 @@ void mostrarJugada(Jugar j);
 
 int comprobarGanador(Jugar j, Jugador ju);
 
+int * getJugada (Jugar j);
+
 
 
 

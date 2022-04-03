@@ -144,3 +144,12 @@ void mostrarCarton(Carton c){
 
 	}
 };
+
+
+//get y set
+
+int * getCarton(Carton c){
+
+    return c->numeros;
+
+};

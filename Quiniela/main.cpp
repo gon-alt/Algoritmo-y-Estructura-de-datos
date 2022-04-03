@@ -22,7 +22,7 @@ int main()
 
 	mostrarJugada(ju);
 
-    cout<< "aciertos: " << comprobarGanador(ju, j) << endl;
+    cout<< "Aciertos: " << comprobarGanador(ju, j) << endl;
 
 
     return 0;

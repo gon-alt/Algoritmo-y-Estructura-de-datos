@@ -56,3 +56,25 @@ void mostrarJugador(Jugador j){
 	mostrarCarton(j->c);
 
 };
+
+//getter y seeter
+
+char * getNombre(Jugador j){
+
+    return j->nombre;
+
+};
+
+
+int * getDni(Jugador j){
+
+   //return j->dni;
+
+};
+
+int * getCartonJugador(Jugador j){
+
+    return getCarton(j->c);
+
+};
+
