@@ -13,3 +13,27 @@
 	<stdlib.h>
 	"dispositivo.h"
 
+1649045261 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Unidad 0/dispositivo.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"dispositivo.h"
+
+1649045257 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Unidad 0/dispositivo.h
+
+1649045122 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Unidad 0/main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"dispositivo.h"
+	"persona.h"
+
+1649045305 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Unidad 0/persona.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"persona.h"
+	"dispositivo.h"
+
+1649045360 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Unidad 0/persona.h
+

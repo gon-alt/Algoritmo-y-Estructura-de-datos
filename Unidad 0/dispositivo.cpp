@@ -4,7 +4,7 @@
 #include "dispositivo.h"
 
 
-struct dispositivoEstructura{
+struct DispositivoEstructura{
 
     char tipo[20];
     char marca[20];
@@ -14,9 +14,15 @@ struct dispositivoEstructura{
 
 Dispositivo crearDispositivo(){
 
-    Dispositivo d = new dispositivoEstructura;
+    Dispositivo d = new DispositivoEstructura;
 
+    printf("Ingrese el tipo de Dispositivo\n");
 
+    scanf("%s", d->tipo);
+
+    printf("Ingrese el marca de Dispositivo\n");
+
+    scanf("%s", d->marca);
 
     printf("Ingresae la capacidad de memoria del dispositivo\n");
 
@@ -26,6 +32,7 @@ Dispositivo crearDispositivo(){
 
     scanf("%f",&d->precio);
 
+    return d;
 };
 
 void mostrarDispositivo(Dispositivo d){

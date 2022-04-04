@@ -10,19 +10,24 @@ int main()
 {
     cout << "Bienvenido a la Quiniela Plus" << endl;
 
-	Jugador j;
+	Jugador j1;
 
-	j = crearJugador();
-
-	mostrarJugador(j);
+	j1 = crearJugador();
 
 	Jugar ju;
 
 	ju = crearJuego();
 
-	mostrarJugada(ju);
+	//mostrarJugada(ju);
 
-    cout<< "Aciertos: " << comprobarGanador(ju, j) << endl;
+    mostrarJugador(j1);
+
+    cout<<  "Tiene " << contarAciertos(ju, j1) << " aciertos\n "<< endl;
+
+    contarAciertos(ju,j1);
+
+    mostrarCartonGanador(ju, j1);
+
 
 
     return 0;

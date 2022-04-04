@@ -173,7 +173,7 @@
 1648953818 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Quiniela/jugador.h
 	"carton.h"
 
-1648955153 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Quiniela/jugar.cpp
+1649016174 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Quiniela/jugar.cpp
 	<iostream>
 	<cstring>
 	"carton.h"
@@ -182,9 +182,9 @@
 	<stdlib.h>
 	<time.h>
 
-1648954013 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Quiniela/jugar.h
+1649016147 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Quiniela/jugar.h
 
-1648954869 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Quiniela/main.cpp
+1649016181 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Quiniela/main.cpp
 	<iostream>
 	<cstring>
 	"carton.h"

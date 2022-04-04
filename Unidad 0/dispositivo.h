@@ -1,9 +1,9 @@
 #ifndef DISPOSITIVO_H_INCLUDED
 #define DISPOSITIVO_H_INCLUDED
 
-struct dispositivoEstructura;
+struct DispositivoEstructura;
 
-typedef struct dispositivoEstructura * Dispositivo;
+typedef struct DispositivoEstructura * Dispositivo;
 
 Dispositivo crearDispositivo();
 

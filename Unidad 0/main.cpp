@@ -2,6 +2,7 @@
 #include <cstring>
 #include <stdlib.h>
 #include "dispositivo.h"
+#include "persona.h"
 
 
 using namespace std;
@@ -10,11 +11,12 @@ int main()
 {
     cout << "Hello world!" << endl;
 
-    Dispositivo d;
+    Persona p1;
 
-    d = crearDispositivo();
+    p1 = crearPersona();
 
-    mostrarDispositivo(d);
+    mostrarPersona(p1);
+
 
     return 0;
 }

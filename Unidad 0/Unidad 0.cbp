@@ -35,6 +35,8 @@
 		<Unit filename="dispositivo.cpp" />
 		<Unit filename="dispositivo.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="persona.cpp" />
+		<Unit filename="persona.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

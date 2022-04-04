@@ -90,23 +90,74 @@ void mostrarJugada(Jugar j){
 };
 
 
-int comprobarGanador(Jugar j, Jugador ju){
+int contarAciertos(Jugar j, Jugador ju){
 
     int aciertos = 0;
+    int i = 0;
 
-    for(int i=0;i<20;i++){
+    while(i<8){
 
-        for(int k=0;k<8;k++){
+        for(int k=0;k<20;k++){
 
-            if(j->numeros[i] == getCartonJugador(ju)[k]){
+            if(j->numeros[k] == getCartonJugador(ju)[i]){
 
                 aciertos++;
+                i++;
             }
         }
 
     }
 
 return aciertos;
+
+};
+
+void comprobarGanador(Jugar j, Jugador ju){
+
+    int aciertos = contarAciertos(j,ju);
+
+    if(aciertos >= 8){
+
+        printf("Gano $ 11 millones!!\n");
+
+    } else if(aciertos == 7){
+
+        printf("Gano $ 20 mil\n");
+
+    }else if(aciertos == 6){
+
+        printf("Gano $ 500\n");
+
+    }else if(aciertos == 5){
+
+        printf("Gano $ 50\n");
+
+    }else if( aciertos < 5){
+
+        printf("No ganaste nada!!\n");
+
+    }
+
+
+};
+
+void mostrarCartonGanador(Jugar j, Jugador ju){
+
+    int a[8];
+
+    printf("*** Carton Ganador ***\n");
+
+	for(int i=0; i<8;i++){
+
+            for( int k=0; k<20; k++){
+
+                if(getCartonJugador(ju)[i] == j->numeros[k])
+
+                printf("Numero acertado %d : %d -\n",i+1, getCartonJugador(ju)[i]);
+
+            }
+
+	}
 
 };
 
