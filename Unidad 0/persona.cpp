@@ -4,6 +4,12 @@
 #include "persona.h"
 #include "dispositivo.h"
 
+//Primitivas
+
+//PRE:
+//POST:
+//AXIOMAS:
+
 struct PersonaEstructura{
 
     char nombre[20];
@@ -11,6 +17,10 @@ struct PersonaEstructura{
     Dispositivo d;
 
 };
+
+//PRE:
+//POST:
+//AXIOMAS:
 
 Persona crearPersona(){
 
@@ -26,6 +36,20 @@ Persona crearPersona(){
 
 };
 
+//PRE:
+//POST:
+//AXIOMAS:
+
+void eliminarPersona(Persona p){
+
+    delete p;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
 void mostrarPersona(Persona p){
 
     printf("*** Persona ***\n");
@@ -33,5 +57,46 @@ void mostrarPersona(Persona p){
     printf("Nombre: %s\n", p->nombre);
     printf("DNI: %d \n", p->dni);
     mostrarDispositivo(p->d);
+};
+
+//gets & sets
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+char * getNombre(Persona p){
+
+    return p->nombre;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+int getDniPersona(Persona p){
+
+    return p->dni;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+void setNombrePersona(Persona p, char nombre[20]){
+
+    p->nombre = nombre;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+void setDniPersona(Persona p, int dni){
+
+    p->dni = dni;
 
 };

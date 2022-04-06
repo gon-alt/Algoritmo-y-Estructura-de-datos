@@ -3,6 +3,11 @@
 #include <stdlib.h>
 #include "dispositivo.h"
 
+//Primitivas
+
+//PRE:
+//POST:
+//AXIOMAS:
 
 struct DispositivoEstructura{
 
@@ -11,6 +16,10 @@ struct DispositivoEstructura{
     float precio;
     float memoria;
 };
+
+//PRE:
+//POST:
+//AXIOMAS:
 
 Dispositivo crearDispositivo(){
 
@@ -35,6 +44,20 @@ Dispositivo crearDispositivo(){
     return d;
 };
 
+//PRE:
+//POST:
+//AXIOMAS:
+
+void destruirDispositivo(Dispositivo d){
+
+    delete d;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
 void mostrarDispositivo(Dispositivo d){
 
     printf("Tipo: %s \n", d->tipo);
@@ -44,5 +67,87 @@ void mostrarDispositivo(Dispositivo d){
     printf("Memoria: %f \n", d->memoria);
 
     printf("Precio: %f \n", d->precio);
+
+};
+
+//gets & sets
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+char * getTipoDispositivo(Dispositivo d){
+
+    return d->tipo;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+char * getMarcaDispositivo(Dispositivo d){
+
+    return d->marca;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+float getPrecioDispositivo(Dispositivo d){
+
+    return d->precio;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+float getMemoriaDispositivo(Dispositivo d){
+
+    return d->memoria;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+void setTipoDispositivo(Dispositivo d, char tipo[20]){
+
+    d->tipo = tipo;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+void setMarcaDispositivo(Dispositivo d, char marca[20]){
+
+    d->marca = marca;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+void setPrecioDispositivo(Dispositivo d, float precio){
+
+    d->precio = precio;
+
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+
+void setMemoriaDispositivo(Dispositivo d, float memoria){
+
+    d->memoria = memoria;
 
 };
