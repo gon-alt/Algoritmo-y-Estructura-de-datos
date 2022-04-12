@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include "carton.h"
+#include "funciones.h"
 #include <stdlib.h>
 #include <time.h>
 
@@ -13,40 +14,19 @@ struct CartonEstructura{
 
 };
 
-//funciones y peocedimientos
-
-bool buscaRepetido(Carton c, int aux){
-
-	bool repetido=false;
-
-	for(int i=0;i<8;i++){
-
-		if(aux==c->numeros[i]){
-
-			repetido = true;
-
-			return repetido;
-
-		}
-
-	}
-
-	return repetido;
-
-};
-
 Carton crearCartonTeclado(){
 
 	Carton c = new CartonEstructura;
 
-	int aux;
+
+    for(int i=0; i<8; i++){
+
+            c->numeros[i] = -1 - i;
+
+    }
+
+    int aux;
 	int i = 0;
-
-	for(int p=0;p<8;p++){
-
-		c->numeros[p] = -10 ;
-
-	}
 
 	while (i<8){
 
@@ -54,7 +34,7 @@ Carton crearCartonTeclado(){
 
 		scanf("%d",&aux);
 
-		if(buscaRepetido(c, aux) || (aux>99) || (aux<0)){
+		if(buscaRepetido(c->numeros, 8, aux) || (aux>99) || (aux<0)){
 
 			printf("El numero no corresponde o esta repetido\n");
 
@@ -68,23 +48,8 @@ Carton crearCartonTeclado(){
 
 	}
 
-		//ordenamiento de carton
+        ordenarVetor(c->numeros, 8);
 
-		for (int i=1;i<=8-1;i++){ /*pasadas*/
-
-            for (int j=0;j<=8-2;j++){
-
-                if (c->numeros[j]>c->numeros[j+1]) /*comparación */
-                {
-                    /*intercambio*/
-                    aux=c->numeros[j];
-                    c->numeros[j] = c->numeros[j+1];
-                    c->numeros[j+1] = aux;
-                }
-			}
-		}
-
-	return c;
 };
 
 Carton crearCarton(){
@@ -95,44 +60,26 @@ Carton crearCarton(){
 
 	Carton c = new CartonEstructura;
 
+		//Carga de carraton generico
+
 	for(int i=0;i<8;i++){
 
 		c->numeros[i] = 1 + rand() % (100 - 0);
 
-			if(aux == c->numeros[i]){
+        }
 
-				aux = 1 + rand() % (100 - 0);
+	for(int i=0;i<8;i++){
 
-			} else {
+		if(buscaRepetido(c->numeros, 8, c->numeros[i])){
 
-				aux = 1 + rand() % (100 - 0);
-
-				c->numeros[i] = aux;
+				c->numeros[i] = 1 + rand() % (100 - 0);
 
 			}
 
 	}
 
-	//ordenamiento de carton
-
-		for (int i=1;i<=8-1;i++){ /*pasadas*/
-
-            for (int j=0;j<=8-2;j++){
-
-                if (c->numeros[j]>c->numeros[j+1]) /*comparación */
-                {
-                    /*intercambio*/
-                    aux=c->numeros[j];
-
-                    c->numeros[j] = c->numeros[j+1];
-
-                    c->numeros[j+1] = aux;
-                }
-			}
-		}
-
-	return c;
-};
+	ordenarVetor(c->numeros, 8);
+}
 
 void mostrarCarton(Carton c){
 

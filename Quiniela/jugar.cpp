@@ -13,25 +13,6 @@ struct JugarEstructura{
 
 };
 
-bool buscaRepetido(Jugar j, int aux){
-
-	bool repetido = false;
-
-	for(int i=0;i<20;i++){
-
-		if(aux==j->numeros[i]){
-
-			repetido = true;
-
-			return repetido;
-
-		}
-
-	}
-
-	return repetido;
-
-};
 
 Jugar crearJuego(){
 
@@ -98,10 +79,11 @@ int contarAciertos(Jugar j, Jugador ju){
     while(i<8){
 
         for(int k=0;k<20;k++){
-
+            //Encontrar la manera de no contar los aciertos repetidos
             if(j->numeros[k] == getCartonJugador(ju)[i]){
 
                 aciertos++;
+
                 i++;
             }
         }
@@ -149,16 +131,21 @@ void mostrarCartonGanador(Jugar j, Jugador ju){
 
 	for(int i=0; i<8;i++){
 
-            for( int k=0; k<20; k++){
+            for( int k=0; k<8; k++){
 
-                if(getCartonJugador(ju)[i] == j->numeros[k])
-
+                if(buscaRepetido(getJugada(j),20,getCartonJugador(ju)[k]){
+                    //imprimir numeros aceratados
                 printf("Numero acertado %d : %d -\n",i+1, getCartonJugador(ju)[i]);
+
+            }else {
+                //imprimir numero no acertado
+                printf("Numero %d : %d ",i+1, getCartonJugador(ju)[i]);
 
             }
 
 	}
 
+}
 };
 
 // getter y setter

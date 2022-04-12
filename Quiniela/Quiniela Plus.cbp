@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="carton.cpp" />
 		<Unit filename="carton.h" />
+		<Unit filename="funciones.cpp" />
+		<Unit filename="funciones.h" />
 		<Unit filename="jugador.cpp" />
 		<Unit filename="jugador.h" />
 		<Unit filename="jugar.cpp" />

@@ -21,7 +21,7 @@ void mostrarCartonGanador(Jugar j, Jugador ju);
 
 // getter y setter
 
-int * getJugada (Jugar j);
+int * getJugada(Jugar j);
 
 
 

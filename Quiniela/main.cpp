@@ -24,7 +24,7 @@ int main()
 
     cout<<  "Tiene " << contarAciertos(ju, j1) << " aciertos\n "<< endl;
 
-    contarAciertos(ju,j1);
+    comprobarGanador(ju,j1);
 
     mostrarCartonGanador(ju, j1);
 
