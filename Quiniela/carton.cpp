@@ -64,7 +64,7 @@ Carton crearCarton(){
 
 	for(int i=0;i<8;i++){
 
-		c->numeros[i] = 1 + rand() % (100 - 0);
+		c->numeros[i] = rand() % (100 - 0);
 
         }
 
@@ -72,7 +72,7 @@ Carton crearCarton(){
 
 		if(buscaRepetido(c->numeros, 8, c->numeros[i])){
 
-				c->numeros[i] = 1 + rand() % (100 - 0);
+				c->numeros[i] = 2+rand() % (100 - 0);
 
 			}
 

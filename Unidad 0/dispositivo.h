@@ -6,7 +6,7 @@
 
 //PRE:
 //POST:
-//AXIOMAS:
+//AXIOMAS: (reglas que tienen las variables de la estructura)
 
 struct DispositivoEstructura;
 
@@ -38,13 +38,13 @@ void mostrarDispositivo(Dispositivo d);
 //PRE:
 //POST:
 //AXIOMAS:
-
+// los gets de char son con un puntero a la primer posicion del arreglo de caracteres
 char * getTipoDispositivo(Dispositivo d);
 
 //PRE:
 //POST:
 //AXIOMAS:
-
+// los gets de char son con un puntero a la primer posicion del arreglo de caracteres
 char * getMarcaDispositivo(Dispositivo d);
 
 //PRE:

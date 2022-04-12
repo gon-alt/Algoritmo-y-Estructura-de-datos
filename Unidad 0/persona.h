@@ -29,7 +29,7 @@ void mostrarPersona(Persona p);
 //POST:
 //AXIOMAS:
 
-void eliminarPersona(Persona p):
+void eliminarPersona(Persona p);
 
 //gets & sets
 

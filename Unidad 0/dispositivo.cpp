@@ -3,11 +3,6 @@
 #include <stdlib.h>
 #include "dispositivo.h"
 
-//Primitivas
-
-//PRE:
-//POST:
-//AXIOMAS:
 
 struct DispositivoEstructura{
 
@@ -16,10 +11,6 @@ struct DispositivoEstructura{
     float precio;
     float memoria;
 };
-
-//PRE:
-//POST:
-//AXIOMAS:
 
 Dispositivo crearDispositivo(){
 
@@ -44,19 +35,11 @@ Dispositivo crearDispositivo(){
     return d;
 };
 
-//PRE:
-//POST:
-//AXIOMAS:
-
 void destruirDispositivo(Dispositivo d){
 
     delete d;
 
 };
-
-//PRE:
-//POST:
-//AXIOMAS:
 
 void mostrarDispositivo(Dispositivo d){
 
@@ -70,21 +53,11 @@ void mostrarDispositivo(Dispositivo d){
 
 };
 
-//gets & sets
-
-//PRE:
-//POST:
-//AXIOMAS:
-
 char * getTipoDispositivo(Dispositivo d){
 
     return d->tipo;
 
 };
-
-//PRE:
-//POST:
-//AXIOMAS:
 
 char * getMarcaDispositivo(Dispositivo d){
 
@@ -92,19 +65,11 @@ char * getMarcaDispositivo(Dispositivo d){
 
 };
 
-//PRE:
-//POST:
-//AXIOMAS:
-
 float getPrecioDispositivo(Dispositivo d){
 
     return d->precio;
 
 };
-
-//PRE:
-//POST:
-//AXIOMAS:
 
 float getMemoriaDispositivo(Dispositivo d){
 
@@ -112,39 +77,23 @@ float getMemoriaDispositivo(Dispositivo d){
 
 };
 
-//PRE:
-//POST:
-//AXIOMAS:
-
 void setTipoDispositivo(Dispositivo d, char tipo[20]){
 
-    d->tipo = tipo;
+    strcpy(d->tipo, tipo);
 
 };
-
-//PRE:
-//POST:
-//AXIOMAS:
 
 void setMarcaDispositivo(Dispositivo d, char marca[20]){
 
-    d->marca = marca;
+    strcpy(d->marca, marca);
 
 };
-
-//PRE:
-//POST:
-//AXIOMAS:
 
 void setPrecioDispositivo(Dispositivo d, float precio){
 
     d->precio = precio;
 
 };
-
-//PRE:
-//POST:
-//AXIOMAS:
 
 void setMemoriaDispositivo(Dispositivo d, float memoria){
 

@@ -3,6 +3,7 @@
 #include "carton.h"
 #include "jugador.h"
 #include "jugar.h"
+#include "funciones.h"
 #include <stdlib.h>
 #include <time.h>
 
@@ -76,21 +77,21 @@ int contarAciertos(Jugar j, Jugador ju){
     int aciertos = 0;
     int i = 0;
 
-    while(i<8){
+    	for(int i=0; i<8;i++){
 
-        for(int k=0;k<20;k++){
-            //Encontrar la manera de no contar los aciertos repetidos
-            if(j->numeros[k] == getCartonJugador(ju)[i]){
+            if(buscaRepetido(getJugada(j),20,getCartonJugador(ju)[i])){
 
-                aciertos++;
 
-                i++;
+                    if(buscaRepetido(getJugada(j),20,getJugada(j)[i])){
+
+                        aciertos++;
+
+                    }
+
             }
         }
 
-    }
-
-return aciertos;
+    return aciertos;
 
 };
 
@@ -131,21 +132,16 @@ void mostrarCartonGanador(Jugar j, Jugador ju){
 
 	for(int i=0; i<8;i++){
 
-            for( int k=0; k<8; k++){
-
-                if(buscaRepetido(getJugada(j),20,getCartonJugador(ju)[k]){
+            if(buscaRepetido(getJugada(j),20,getCartonJugador(ju)[i])){
                     //imprimir numeros aceratados
                 printf("Numero acertado %d : %d -\n",i+1, getCartonJugador(ju)[i]);
 
             }else {
                 //imprimir numero no acertado
-                printf("Numero %d : %d ",i+1, getCartonJugador(ju)[i]);
+                printf("Numero %d : %d \n",i+1, getCartonJugador(ju)[i]);
 
             }
-
-	}
-
-}
+        }
 };
 
 // getter y setter

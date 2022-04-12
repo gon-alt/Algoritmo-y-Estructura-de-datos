@@ -18,7 +18,7 @@ int main()
 
 	ju = crearJuego();
 
-	//mostrarJugada(ju);
+	mostrarJugada(ju);
 
     mostrarJugador(j1);
 

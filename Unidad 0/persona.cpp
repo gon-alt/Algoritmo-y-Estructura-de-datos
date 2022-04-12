@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "persona.h"
 #include "dispositivo.h"
+#include "fechas.h"
 
 //Primitivas
 
@@ -14,6 +15,7 @@ struct PersonaEstructura{
 
     char nombre[20];
     int dni;
+    Fecha fechaN;
     Dispositivo d;
 
 };
@@ -30,6 +32,7 @@ Persona crearPersona(){
     scanf("%s",& p->nombre);
     printf("Ingrese el DNI de la persona\n");
     scanf("%d",& p->dni);
+    p->fechaN = crearFecha(5,8,1986);
     p->d = crearDispositivo();
 
     return p;
@@ -57,6 +60,7 @@ void mostrarPersona(Persona p){
     printf("Nombre: %s\n", p->nombre);
     printf("DNI: %d \n", p->dni);
     mostrarDispositivo(p->d);
+    mostrarFecha(p->fechaN);
 };
 
 //gets & sets
@@ -87,7 +91,7 @@ int getDniPersona(Persona p){
 
 void setNombrePersona(Persona p, char nombre[20]){
 
-    p->nombre = nombre;
+    strcpy(p->nombre, nombre);
 
 };
 

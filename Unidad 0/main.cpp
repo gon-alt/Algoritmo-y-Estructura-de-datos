@@ -17,6 +17,8 @@ int main()
 
     mostrarPersona(p1);
 
+    eliminarPersona(p1);
+
 
     return 0;
 }
