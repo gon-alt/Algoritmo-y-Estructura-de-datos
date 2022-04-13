@@ -43,6 +43,8 @@ void destruirDispositivo(Dispositivo d){
 
 void mostrarDispositivo(Dispositivo d){
 
+    printf("*** Dispositivo ***\n");
+
     printf("Tipo: %s \n", d->tipo);
 
     printf("Marca: %s \n", d->marca);

@@ -1,0 +1,9 @@
+*** Carton Ganador ***
+Numero 1 : 1 
+Numero 2 : 10 
+Numero 3 : 15 
+Numero 4 : 17 
+Numero acertado 5 : 20 -
+Numero acertado 6 : 23 -
+Numero 7 : 65 
+Numero 8 : 98 

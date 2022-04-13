@@ -27,7 +27,7 @@ Fecha crearFecha(int d, int m, int a){
 
 void mostrarFecha(Fecha f){
 
-    printf("Fecha: ");
+    printf("Fecha de Nacimiento: ");
 
     printf("%d / %d / %d\n", f->dia, f->mes, f->anio);
 

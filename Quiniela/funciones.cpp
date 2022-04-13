@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstring>
+#include <stdlib.h>
+#include <stdio.h>
 #include "funciones.h"
 
 
@@ -46,4 +48,31 @@ int *ordenarVetor(int v[], int t){
 		}
 
 	return v;
+};
+
+//guardar archivo
+void guardarCarton(Jugar j, Jugador ju){
+
+    FILE * archivo = new FILE;
+
+    archivo = fopen("carton.txt", "w");
+
+    fprintf(archivo, "*** Carton Ganador ***\n");
+
+    for(int i=0; i<8;i++){
+
+            if(buscaRepetido(getJugada(j),20,getCartonJugador(ju)[i])){
+                    //imprimir numeros aceratados
+                fprintf(archivo,"Numero acertado %d : %d -\n",i+1, getCartonJugador(ju)[i]);
+
+            }else {
+                //imprimir numero no acertado
+                 fprintf(archivo,"Numero %d : %d \n",i+1, getCartonJugador(ju)[i]);
+
+            }
+        }
+
+    fclose(archivo);
+    free(archivo);
+
 };

@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="dispositivo.cpp" />
 		<Unit filename="dispositivo.h" />
+		<Unit filename="empleados.cpp" />
+		<Unit filename="empleados.h" />
 		<Unit filename="fecha.cpp" />
 		<Unit filename="fechas.h" />
 		<Unit filename="main.cpp" />

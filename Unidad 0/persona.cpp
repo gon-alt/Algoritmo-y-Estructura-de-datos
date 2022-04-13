@@ -16,7 +16,7 @@ struct PersonaEstructura{
     char nombre[20];
     int dni;
     Fecha fechaN;
-    Dispositivo d;
+    Dispositivo d[2];
 
 };
 
@@ -33,7 +33,10 @@ Persona crearPersona(){
     printf("Ingrese el DNI de la persona\n");
     scanf("%d",& p->dni);
     p->fechaN = crearFecha(5,8,1986);
-    p->d = crearDispositivo();
+
+    for(int i=0; i<2;i++){
+    p->d[i] = crearDispositivo();
+    }
 
     return p;
 
@@ -59,8 +62,12 @@ void mostrarPersona(Persona p){
 
     printf("Nombre: %s\n", p->nombre);
     printf("DNI: %d \n", p->dni);
-    mostrarDispositivo(p->d);
     mostrarFecha(p->fechaN);
+    printf("\n");
+    for(int i=0; i<2; i++){
+    mostrarDispositivo(p->d[i]);
+    }
+
 };
 
 //gets & sets

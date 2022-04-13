@@ -117,7 +117,7 @@ void comprobarGanador(Jugar j, Jugador ju){
 
     }else if( aciertos < 5){
 
-        printf("No ganaste nada!!\n");
+        printf("No ganaste nada!!\n\n");
 
     }
 
