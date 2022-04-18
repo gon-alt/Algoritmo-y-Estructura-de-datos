@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1650052747 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Comercio/main.cpp
+	<iostream>
+
+1650052747 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/main.cpp
+	<iostream>
+
+1650147153 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/fecha.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"fechas.h"
+
+1649389290 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/fechas.h
+
+1650147224 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/producto.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"producto.h"
+
+1650147225 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/producto.h
+
+1650147505 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/persona.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"persona.h"
+	"fechas.h"
+
+1649386763 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/persona.h
+

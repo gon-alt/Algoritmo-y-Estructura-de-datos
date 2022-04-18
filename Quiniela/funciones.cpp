@@ -17,6 +17,12 @@ bool buscaRepetido(int v[],int t, int aux){
 
 			repetido = true;
 
+			if(repetido==true){
+
+                return repetido;
+
+			}
+
 		}
 
 	}

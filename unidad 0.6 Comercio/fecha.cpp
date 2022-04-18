@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include <stdlib.h>
+#include <stdlib.h>
 #include "fechas.h"
 
 //PRE:
@@ -50,7 +51,6 @@ void destruirFecha(Fecha f){
     delete f;
 };
 
-//gets y sets
 int getMes(Fecha f){
 
     return f->mes;
