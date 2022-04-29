@@ -29,7 +29,7 @@ void eliminarProducto(Producto p);
 
 //gets y sets
 
-char * getNombre(Producto p);
+char * getNombreProducto(Producto p);
 
 float getPrecio(Producto p);
 
@@ -37,7 +37,7 @@ int getCodigo(Producto p);
 
 int getCantDisponible(Producto p);
 
-void setNombre(Producto p, char nombre);
+void setNombreProducto(Producto p, char nombre);
 
 void setPrecio(Producto p, float precio);
 

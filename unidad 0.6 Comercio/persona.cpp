@@ -2,7 +2,7 @@
 #include <cstring>
 #include <stdlib.h>
 #include "persona.h"
-#include "fechas.h"
+#include "fecha.h"
 
 //Primitivas
 

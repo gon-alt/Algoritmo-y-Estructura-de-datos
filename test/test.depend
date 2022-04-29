@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1650731671 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/test/main.c
+	<stdio.h>
+	<stdlib.h>
+

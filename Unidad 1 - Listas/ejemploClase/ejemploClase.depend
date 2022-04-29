@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1650407184 source:c:\users\nico_\desktop\ejemploclase\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1650412132 
+
+1650412132 source:c:\users\nico_\desktop\ejemploclase\listas.c
+	<stdio.h>
+	<stdlib.h>
+	"listas.h"
+
+1650412336 c:\users\nico_\desktop\ejemploclase\listas.h
+
+1650496080 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Unidad 1 - Listas/ejemploClase/main.c
+	<stdio.h>
+	<stdlib.h>
+	"listas.h"
+
+1650496080 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Unidad 1 - Listas/ejemploClase/listas.h
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1651033312 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/lista1/lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1651029309 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/lista1/lista.h
+
+1651033973 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/lista1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+

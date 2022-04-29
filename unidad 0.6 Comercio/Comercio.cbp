@@ -37,7 +37,7 @@
 		<Unit filename="factura.cpp" />
 		<Unit filename="factura.h" />
 		<Unit filename="fecha.cpp" />
-		<Unit filename="fechas.h" />
+		<Unit filename="fecha.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="persona.cpp" />
 		<Unit filename="persona.h" />

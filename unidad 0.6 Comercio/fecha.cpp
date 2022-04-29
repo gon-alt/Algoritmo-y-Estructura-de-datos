@@ -2,7 +2,7 @@
 #include <cstring>
 #include <stdlib.h>
 #include <stdlib.h>
-#include "fechas.h"
+#include "fecha.h"
 
 //PRE:
 //POST:

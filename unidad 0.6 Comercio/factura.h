@@ -1,5 +1,8 @@
 #ifndef FACTURA_H_INCLUDED
 #define FACTURA_H_INCLUDED
+#include "fecha.h"
+#include "persona.h"
+#include "detalleCompra.h"
 
 //PRE:
 //POST:
@@ -13,7 +16,7 @@ typedef struct eFactura * Factura;
 //PRE:
 //POST:
 //AXIOMAS:
-Factura crearFactura();
+Factura crearFactura(int nro);
 
 
 //PRE:
@@ -28,6 +31,21 @@ void eliminarFactura(Factura f);
 
 //gets y sets
 
+int getNumero(Factura f);
+
+Fecha getFecha(Factura f);
+
+Persona getPersona(Factura f);
+
+DetalleCompra getDetalle(Factura f);
+
+void setNumero(Factura f, int numero);
+
+void setFecha(Factura f, Fecha fecha);
+
+void setPersona(Factura f, Persona p);
+
+void setDetalle(Factura f, DetalleCompra d);
 
 
 
