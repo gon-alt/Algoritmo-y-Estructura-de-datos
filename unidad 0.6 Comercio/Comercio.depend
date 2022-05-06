@@ -2,10 +2,15 @@
 1650052747 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Comercio/main.cpp
 	<iostream>
 
-1650343614 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/main.cpp
+1650344602 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/main.cpp
 	<iostream>
 	<cstring>
 	<stdlib.h>
+	"producto.h"
+	"persona.h"
+	"fecha.h"
+	"factura.h"
+	"detalleCompra.h"
 
 1650340938 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/fecha.cpp
 	<iostream>
@@ -22,7 +27,7 @@
 	<stdlib.h>
 	"producto.h"
 
-1650342545 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/producto.h
+1651801616 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/producto.h
 
 1650340938 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/persona.cpp
 	<iostream>
@@ -33,7 +38,7 @@
 
 1649386763 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/persona.h
 
-1650344322 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/detalleCompra.cpp
+1651798723 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/detalleCompra.cpp
 	<iostream>
 	<cstring>
 	<stdlib.h>

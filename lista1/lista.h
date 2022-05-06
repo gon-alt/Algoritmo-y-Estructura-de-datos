@@ -33,8 +33,9 @@ int removerFin(ListaEnc lista, int* item);
 int obtenerElemento(ListaEnc lista, int* item, int pos);
 int obtenerTamanio(ListaEnc lista, int* tam);
 
-int ordenarLista(ListaEnc lista);
+void ordenarLista(ListaEnc lista);
 int buscarEnLista(ListaEnc lista, int* pos, int dato);
+
 
 
 void imprimir(ListaEnc lista);

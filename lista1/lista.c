@@ -399,9 +399,33 @@ pos: ordena la lista de menor a mayor o alfabeticamente
 
 aximoas:
 */
-int ordenarLista(ListaEnc lista){
+void ordenarLista(ListaEnc lista){
 
-    // ########
+    int tam;
+    obtenerTamanio(lista, &tam);
+
+    int aux;
+    Nodo nodoActual;
+
+    for(int i=0; i<tam; i++){
+
+            nodoActual = lista->inicio;
+
+        for(int j=0; j<tam-1; j++){
+
+            if(nodoActual->item > nodoActual->prox->item){
+
+                aux = nodoActual->item;
+                nodoActual->item = nodoActual->prox->item;
+                nodoActual->prox->item = aux;
+
+            }
+
+            nodoActual = nodoActual->prox;
+
+        }
+
+    }
 
 };
 
@@ -414,8 +438,6 @@ aximoas:
 */
 int buscarEnLista(ListaEnc lista, int* pos, int dato){
 
-    //######## ver por que pos no toma la posicion de i al recorrer el for
-    //obtenemos el tamanio de lista y lo guardamos en pos
     int tamanio;
     obtenerTamanio(lista, &tamanio);
 
@@ -425,12 +447,12 @@ int buscarEnLista(ListaEnc lista, int* pos, int dato){
     //recorremos la lista
     for(int i=0; i<tamanio; i++){
 
-            aux = aux->prox;
-
             if(aux->item == dato){
-                *pos = i+1;
+                *pos = i;
                 return TRUE;
             }
+
+            aux = aux->prox;
     }
 
     return FALSE;

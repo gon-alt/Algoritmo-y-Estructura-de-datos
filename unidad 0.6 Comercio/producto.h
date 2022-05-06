@@ -13,7 +13,7 @@ typedef struct eProducto * Producto;
 //PRE:
 //POST:
 //AXIOMAS:
-Producto crearProducto();
+Producto crearProducto( char nombre[20],float precio,int codigo, int cantDisponible);
 
 
 //PRE:
@@ -26,6 +26,11 @@ void mostratProducto(Producto p);
 //POST:
 //AXIOMAS:
 void eliminarProducto(Producto p);
+
+//PRE:
+//POST:
+//AXIOMAS:
+Producto buscarProducto(int codigo);
 
 //gets y sets
 

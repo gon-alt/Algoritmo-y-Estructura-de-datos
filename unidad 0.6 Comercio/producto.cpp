@@ -18,11 +18,14 @@ struct eProducto{
 //PRE:
 //POST:
 //AXIOMAS:
-Producto crearProducto(){
+Producto crearProducto( char nombre[20],float precio,int codigo, int cantDisponible);
 
     Producto p = new eProducto;
 
-    //to... leer archivo y cargarlo en la estructura
+    p->nombre = nombre;
+    p->precio = precio;
+    p->codigo = codigo;
+    p->cantDisponible = cantDisponible;
 
     return p;
 
@@ -48,6 +51,15 @@ void mostratProducto(Producto p){
 void eliminarProducto(Producto p){
 
     delete p;
+};
+
+//PRE:
+//POST:
+//AXIOMAS:
+Producto buscarProducto(int codigo){
+
+
+
 };
 
 //gets y sets

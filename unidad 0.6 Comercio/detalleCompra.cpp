@@ -11,7 +11,7 @@
 struct eDetalleCompra{
 
     int nroDetalle;
-    Producto p;
+    char nombreProducto[20];
     int cantidad;
     float precio;
     float precioTotal;
@@ -30,13 +30,21 @@ void cargarNumero(DetalleCompra d){
 DetalleCompra crearDetalle(){
 
     DetalleCompra d = new eDetalleCompra;
-    d->nroDetalle = 1;//cargarNumero(d); ver si se puede implementar el metodo cargarNumero
-    d->p = crearProducto();//if si es un producto nuevo o si ya esta creado
-    printf("Ingrese la cantidad: \n");
-    scanf("%d",&d->cantidad);
-    d->precio = getPrecio(d->p);
-    d->precioTotal = d->precio*  d->cantidad;
+    Producto producto;
 
+    int codigo;
+    int cantidad;
+
+    d->nroDetalle = 1;//cargarNumero(d); ver si se puede implementar el metodo cargarNumero
+    printf("Ingrese el codigo del producto: \n");
+    scanf("%d", &codigo);
+    producto = buscarProducto(codigo);
+    d->nombreProducto = getNombreProducto(producto);
+    printf("Ingrese la cantidad: \n");
+    scanf("%d",&cantidad);
+    d->cantidad = cantidad;
+    d->precio = getPrecio(producto);
+    d->precioTotal = d->precio*  d->cantidad;
 
     return d;
 
@@ -56,8 +64,6 @@ void mostrarDetalle(DetalleCompra d){
     printf("Producto: %s - Cantidad: %d - Precio %f - Total\n", getNombreProducto(d->p), d->cantidad, getPrecio(d->p), d->precioTotal);
 
     }
-
-
 
 };
 

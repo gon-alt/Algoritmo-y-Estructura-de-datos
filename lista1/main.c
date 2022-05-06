@@ -25,10 +25,14 @@ int main()
 
     imprimir(lista);
 
+    ordenarLista(lista);
+
+    imprimir(lista);
+
     int pos;
     int error;
     //####### no da bien la posicion
-    error = buscarEnLista(lista, &pos, 2);
+    error = buscarEnLista(lista, &pos, 3);
 
     printf(" esta en la lisa? : %d \n", error);
 
