@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1652043232 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/lista_dato_generico/main.cpp
+	<iostream>
+	"listaGenerica.h"
+	<stdlib.h>
+	<string.h>
+
+1652043305 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/lista_dato_generico/listaGenerica.cpp
+	<iostream>
+	"listaGenerica.h"
+	<stdlib.h>
+	<string.h>
+
+1652042451 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/lista_dato_generico/listaGenerica.h
+

@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1650052747 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/Comercio/main.cpp
+	<iostream>
+
+1650344602 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"producto.h"
+	"persona.h"
+	"fecha.h"
+	"factura.h"
+	"detalleCompra.h"
+
+1650340938 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/fecha.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	<stdlib.h>
+	"fecha.h"
+
+1649389290 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/fechas.h
+
+1650342545 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/producto.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"producto.h"
+
+1651801616 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/producto.h
+
+1650340938 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/persona.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"persona.h"
+	"fecha.h"
+
+1649386763 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/persona.h
+
+1651798723 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/detalleCompra.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"detalleCompra.h"
+	"producto.h"
+
+1650343539 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/detalleCompra.h
+
+1649389290 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/fecha.h
+
+1650344458 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/factura.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"factura.h"
+	"fecha.h"
+	"persona.h"
+	"detalleCompra.h"
+
+1650340938 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/unidad 0.6 Comercio/factura.h
+	"fecha.h"
+	"persona.h"
+	"detalleCompra.h"
+
+1652235819 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/factura.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"factura.h"
+	"fecha.h"
+	"persona.h"
+	"detalleCompra.h"
+
+1650340938 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/factura.h
+	"fecha.h"
+	"persona.h"
+	"detalleCompra.h"
+
+1649389290 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/fecha.h
+
+1652044380 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/persona.h
+
+1652045901 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/detalleCompra.h
+	"listaGenerica.h"
+
+1650340938 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/fecha.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	<stdlib.h>
+	"fecha.h"
+
+1652236015 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"producto.h"
+	"persona.h"
+	"fecha.h"
+	"factura.h"
+	"detalleCompra.h"
+	"listaGenerica.h"
+
+1651801616 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/producto.h
+
+1652061844 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/persona.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"persona.h"
+	"fecha.h"
+
+1652235912 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/detalleCompra.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"detalleCompra.h"
+	"producto.h"
+	"listaGenerica.h"
+
+1652047210 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/producto.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	"producto.h"
+
+1652236106 source:/home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/listaGenerica.cpp
+	<iostream>
+	"listaGenerica.h"
+	<stdlib.h>
+	<string.h>
+
+1652058839 /home/gonza/Documents/Github/Algoritmo-y-estructura-de-datos/mis programas/unidad 0.6 Comercio/listaGenerica.h
+
